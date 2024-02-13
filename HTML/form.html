@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML-Form</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <div>Name: <input type="text" name="username" id="name"></div>
+        <div>Email: <input required type="email" name="useremail" id="email"></div>
+        <label for="">Password:</label> <input type="password" name="userpass" id="password">
+        <div>Skills:
+            <input type="checkbox" name="checkbox" id="Frontend">Frontend
+            <input type="checkbox" name="checkbox" id="Frontend">Backend
+        </div>
+        <div>Your bio: <textarea name="userbio" id="bio" cols="30" rows="10"></textarea></div>
+        <div>Your Gender:
+            <select name="usergender" id="gender">
+                <option value="M">Male</option>
+                <option value="F">FeMale</option>
+                <option value="O">Other</option>
+            </select>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
