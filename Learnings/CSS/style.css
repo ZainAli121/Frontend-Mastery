@@ -1,0 +1,35 @@
+p, h1{
+    color: red;
+    font-size: 20px;
+}
+
+.name{
+    color: rgba(53, 173, 57, 0.512);
+    font-size: 20px;
+}
+
+a{
+    color: black;
+    font-size: 20px;
+    background-color: yellow;
+}
+
+ul, ol{
+    list-style-type: none;
+    color: chocolate;
+}
+
+.items{
+    color: peru;
+    font-size: 20px;
+
+}
+
+#head{
+    color: cadetblue;
+}
+
+#thank{
+    color: darkorange;
+    font-size: 20px;
+}
