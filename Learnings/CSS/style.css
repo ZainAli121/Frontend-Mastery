@@ -1,11 +1,15 @@
 p, h1{
     color: red;
     font-size: 20px;
+    text-align: center;
 }
 
 .name{
     color: rgba(53, 173, 57, 0.512);
     font-size: 20px;
+    font-size: larger;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px yellow;
 }
 
 a{
@@ -32,4 +36,17 @@ ul, ol{
 #thank{
     color: darkorange;
     font-size: 20px;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+
+}
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-image: url('../HTML/image.jpg'); */
+    
 }
