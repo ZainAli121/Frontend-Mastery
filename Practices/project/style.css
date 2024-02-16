@@ -1,0 +1,118 @@
+body{
+    background-image: url('./bg.jpg');
+    height: 110vh;
+    background-repeat: no-repeat;
+}
+
+header{
+    /* border: 2px solid red; */
+    color: white;
+    padding: 20px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    /* border: 2px solid white; */
+    display: inline-block;
+    width: 250px;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar{
+    /* border: 2px solid green; */
+    display: inline-block;
+    width: 600px;
+    position: absolute;
+    right: 10px;
+}
+
+.navbar>a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#home{
+    color: aqua;
+}
+
+.navbar>a:hover{
+    color: aqua;
+}
+
+.wish1, .wish2{
+    color: rgb(65, 239, 199);
+    /* border: 3px solid red; */
+    position: relative;
+    display: inline-block;
+    width: 317px;
+    top: 30px;
+    left: 390px;
+    font-family: "Protest Revolution", sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.wish2{
+    /* border: 2px solid gray; */
+    color: chocolate;
+    left: 395px;
+}
+
+#intro{
+    color: azure;
+    /* border: 2px solid rebeccapurple; */
+    position: relative;
+    width: 500px;
+    left: 400px;
+}
+
+
+.chat{
+    /* border: 2px solid green; */
+    color: chocolate;
+    border-radius: 3px;
+    position: relative;
+    top: 100px;
+    width: 200px;
+    left: 500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.btn{
+    /* border: 2px solid red; */
+    background-color: chocolate;
+    color: white;
+    position: relative;
+    top: 90px;
+    width: 100px;
+    left: 503px;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.btn:hover{
+    background-color: aqua;
+    color:chocolate;
+    /* width: 40px; */
+}
+
+footer{
+    color: rgb(231, 166, 36);
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    left: 500px;
+}
