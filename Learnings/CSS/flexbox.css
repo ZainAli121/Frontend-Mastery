@@ -1,0 +1,23 @@
+div{
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: aqua;
+}
+
+body{
+    border: 2px solid rgb(30, 12, 230);
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    justify-content: space-around;
+
+}
+
+.two{
+    align-self: center;
+
+}
