@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(153, 122, 83, 0.333);
+}
+
+.container{
+    background-color:azure;
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#title, #desc, #add{
+    margin-top: 1vmax;
+    font-size: large;
+    font-style: oblique;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1vmax;
+    border-radius: 1vmax;
+    outline: none;
+    
+}
+
+#add{
+    width: 10%;
+    border: none;
+    cursor: pointer;
+    background-color: green;
+}
+#add:hover{
+    background-color:rgb(74, 142, 74);
+}
+
+h1, h2{
+    text-align: center;
+    margin-top: 2vmax;
+    background-color:rgb(244, 244, 180);
+    padding: 1vmax;
+    border-radius: 1vmax;
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.task{
+    border-radius: 1vmax;
+    padding: 1vmax;
+    margin-top: 2vmax;
+    font-size: large;
+    font-style: oblique;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(224, 216, 205);
+    display: flex;
+}
+
+.task>div{
+    width: 93%;
+}
+
+#del{
+    padding: 1vmax;
+    margin-left: 1vmax;
+    border: none;
+    border-radius: 1vmax;
+    background-color: rgba(165, 42, 42, 0.914);
+    cursor: pointer;
+    color: white;
+}
+
+.task span{
+    color: rgba(0, 0, 0, 0.736);
+}
+
+#del:hover{
+    background-color: rgb(139, 39, 39);
+}
+
+h1{
+    margin-bottom: 2vmax;
+    margin-top: 0vmax;
+}
