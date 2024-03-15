@@ -67,7 +67,7 @@ h1, h2{
     width: 93%;
 }
 
-#del{
+#del, #edit, #save_btn{
     padding: 1vmax;
     margin-left: 1vmax;
     border: none;
@@ -75,6 +75,14 @@ h1, h2{
     background-color: rgba(165, 42, 42, 0.914);
     cursor: pointer;
     color: white;
+}
+
+#edit{
+    background-color: green;
+}
+
+#edit:hover{
+    background-color: rgb(58, 151, 58);
 }
 
 .task span{
@@ -88,4 +96,13 @@ h1, h2{
 h1{
     margin-bottom: 2vmax;
     margin-top: 0vmax;
+}
+
+#save_btn{
+    background-color: rgb(241, 241, 13);
+    color: black;
+}
+
+#save_btn:hover{
+    background-color: rgb(222, 222, 15);
 }
