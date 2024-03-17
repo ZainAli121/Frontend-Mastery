@@ -1,0 +1,38 @@
+.card{
+    display: flex;
+    margin-top: 1vmax;
+}
+
+.img img{
+    width: 300px;
+    border-radius: 0.5vmax;
+    margin: 1vmax 0 0 1vmax;
+}
+.img{
+    position: relative;
+}
+
+.duration{
+    position: absolute;
+    right: 4px;
+    top: 190px;
+    color: white;
+    padding: 2px;
+    width: 2.5vmax;
+    background-color: rgba(0, 0, 0, 0.768);
+    font-size: 1.1rem;
+}
+
+.text h1, p{
+    margin: 2vmax 0 0 1vmax;
+}
+
+.text h1{
+    font-size: x-large;
+}
+
+.text p{
+    font-size: 1vmax;
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.696);
+}
