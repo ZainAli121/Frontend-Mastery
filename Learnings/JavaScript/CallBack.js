@@ -1,7 +1,9 @@
-function sum(a, b, c){
+
+const sum=(a,b,func)=>{
     const result = a+b;
-    c(result);
-};
+    func(result);
+}
+
 
 function display(result){
     h1 = document.querySelector("h1");
